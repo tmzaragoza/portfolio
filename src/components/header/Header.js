@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       <header className={styles.Header}>
-        <header className={styles.header}>
+        <section className={styles.header}>
           <a href="teonna.dev" className={styles.TZ}>TZ</a>
           <a href='https://www.linkedin.com/in/teonnazaragoza/' target="_blank">
             <img src="../../../images/linkedin.png" alt="linkedIn logo"/>
@@ -21,7 +21,7 @@ function Header() {
           <a href='https://github.com/tmzaragoza' target="_blank">
             <img src="../../../images/github.png" alt="github logo" />
           </a>
-        </header>
+        </section>
         <Router>
           <nav className={styles.nav}>
             <Link to='/projects'>/WORK</Link>
