@@ -1,0 +1,8 @@
+.Home {
+  text-align: right;
+  padding: .5em;
+  h3 {
+    font-size: 8em;
+    font-weight: 100;
+  }
+}

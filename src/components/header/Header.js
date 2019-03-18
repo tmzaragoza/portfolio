@@ -24,7 +24,6 @@ function Header() {
         </header>
         <Router>
           <nav className={styles.nav}>
-            {/* <Link to='/'></Link> */}
             <Link to='/projects'>/WORK</Link>
             <Link to='/future'>/FUTURE</Link>
             <Link to='/about'>/ABOUT</Link>

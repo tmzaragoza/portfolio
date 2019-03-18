@@ -1,8 +1,11 @@
 import React from 'react';
+import styles from './Home.css';
 
 function Home() {
   return (
-    <h2>hello world.</h2>
+    <main className={styles.Home}>
+      <h3>HELLO MY NAME IS TEONNA ZARAGOZA</h3>
+    </main>
   );
 }
 export default Home;
