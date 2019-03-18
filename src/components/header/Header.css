@@ -1,0 +1,40 @@
+* {
+  font-family: 'raleway', sans-serif;
+}
+.Header {
+  display: grid;
+  grid-template-columns: 5em 24em auto;
+  height: auto;
+}
+.header {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: stretch;
+  margin-top: 5em;
+  margin-left: 1em;
+  height: 50em;
+  border-right: 1px solid gray;
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 3em;
+    height: auto;
+  }
+}
+.nav {
+  margin: 5em 0 0 1em;
+  a {
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 5em;
+    color: #e5e5e5;
+    /* text-shadow: 5px 5px gray; */
+  }
+}
+.TZ {
+  font-size: 3em;
+  font-weight: 200;
+  color: #e5e5e5;
+}
