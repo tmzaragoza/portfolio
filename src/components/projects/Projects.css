@@ -4,16 +4,22 @@
   margin: .5em;
   h2 {
     font-size: 2.3em;
+    margin: 0;
+  }
+  h3 {
+    margin: .25em;
   }
 }
+
 .links {
   display: flex;
   justify-content: center;
   img {
-    height: 2em;
-    margin: 1em;
+    height: 1.6em;
+    margin: .25em;
   }
 }
+
 .date {
   display: none;
 }

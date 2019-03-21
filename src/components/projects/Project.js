@@ -9,8 +9,8 @@ function Project({ project }) {
       <section>
         <h2>{title}</h2>
         <section className={styles.links}>
-          <a href={github}><img src="../../../images/github.png" /></a>
-          <a href={site}><img src="../../../images/www.png" /></a>
+          <a href={github} target="_blank"><img src="../../../images/github.png" /></a>
+          <a href={site} target="_blank"><img src="../../../images/www.png" /></a>
         </section>
         <p className={styles.date}>{date}</p>
         <h3>CONCEPT</h3>
