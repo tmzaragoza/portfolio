@@ -1,5 +1,5 @@
 export const getProjects = () => {
-  return Promise.resolve([
+  return Promise.all([
     {
       title: 'SimAlchemy',
       date: '02/19',
