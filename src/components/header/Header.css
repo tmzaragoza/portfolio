@@ -1,4 +1,4 @@
-@media only screen(min-width: 999px) {
+@media only screen and (max-width: 999px) {
   .Header {
     display: none;
   }
@@ -8,6 +8,8 @@
   .Header {
     display: flex;
     height: 100vh;
+    position: fixed;
+    overflow-x: hidden;
   }
   .section {
     display: flex;
@@ -29,15 +31,15 @@
   .nav {
     display: flex;
     flex-direction: column;
-    border-right: 1px solide #e5e5e5;
     font-size: 4em;
+    margin-right: .5em;
     padding: 3%;
     font-weight: 800;
     a {
       margin: 5%;
     }
     a:visited {
-      color: orange;
+      color: purple;
     }
   }
 };
