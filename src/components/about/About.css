@@ -1,7 +1,7 @@
 .About {
-  height: 95vh;
   border: 1px solid #e5e5e5;
   margin: .5em;
+  height: 95vh;
   padding: 3%;
   section {
     margin-top: 3em;
@@ -35,5 +35,29 @@
 @media only screen and (max-width: 999px) {
   h2 {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .About {
+    margin-left: 25vw;
+    width: 74vw;
+    height: 85vh;
+    h4 {
+      font-size: 1.5em;
+    }
+    h3 {
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 4em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    li {
+      font-size: 1.5em;
+    }
   }
 }
