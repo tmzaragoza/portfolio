@@ -12,8 +12,8 @@ import './main.css';
 
 function App() {
   return (
-    <>
-      <section>
+    <section>
+      <>
         <Router>
           <Header />
           <Switch>
@@ -22,8 +22,8 @@ function App() {
             <Route exact path='/work' component={Projects} />
           </Switch>
         </Router>
-      </section>
-    </>
+      </>
+    </section>
 
   );
 }

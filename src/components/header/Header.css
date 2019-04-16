@@ -1,3 +1,43 @@
-.Header {
-  display: none;
+@media only screen(min-width: 999px) {
+  .Header {
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 1000px) {
+  .Header {
+    display: flex;
+    height: 100vh;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1%;
+    margin: 0;
+    border-right: 1px solid #e5e5e5;
+    img {
+      width: 2em;
+    }
+    a:visited {
+      background-color: orange;
+    }
+  }
+  .TZ {
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solide #e5e5e5;
+    font-size: 4em;
+    padding: 3%;
+    font-weight: 800;
+    a {
+      margin: 5%;
+    }
+    a:visited {
+      color: orange;
+    }
+  }
+};
