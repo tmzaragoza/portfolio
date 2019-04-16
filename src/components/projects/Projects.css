@@ -10,7 +10,6 @@
     margin: .25em;
   }
 }
-
 .links {
   display: flex;
   justify-content: center;
@@ -19,7 +18,6 @@
     margin: .25em;
   }
 }
-
 .date {
   display: none;
 }
@@ -31,13 +29,20 @@
     height: 100%;
   }
 }
-
 .ul {
   list-style: none;
   padding: 0;
 }
-
 .projecth2 {
   font-size: 3em;
   text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .ul {
+    margin-left: 25vw;
+  }
+  .Project {
+    height: 95vh;
+  }
 }

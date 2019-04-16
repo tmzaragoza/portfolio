@@ -11,7 +11,6 @@ function Projects({ projects }) {
   return (
     <>
       <section>
-        <h2 className={styles.projecth2}>PROJECTS</h2>
         <ul className={styles.ul}>{listOfProjects}</ul>
       </section>
     </>
