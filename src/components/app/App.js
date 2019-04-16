@@ -7,19 +7,19 @@ import {
 import Home from '../home/Home';
 import About from '../about/About';
 import Header from '../header/Header';
-import Projects from '../projects/Projects';
-import './main.css';
+import ProjectsContainer from '../../container/ProjectsContainer';
+import styles from './main.css';
 
 function App() {
   return (
-    <section>
+    <section className={styles.main}>
       <>
         <Router>
           <Header />
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
-            <Route exact path='/work' component={Projects} />
+            <Route exact path='/projects' component={ProjectsContainer} />
           </Switch>
         </Router>
       </>
