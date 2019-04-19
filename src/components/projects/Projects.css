@@ -2,6 +2,7 @@
   text-align: center;
   border: 1px solid #e5e5e5;
   margin: .5em;
+  height: 95vh;
   h2 {
     font-size: 2.3em;
     margin: 0;
@@ -40,7 +41,7 @@
 
 @media only screen and (min-width: 1000px) {
   .ul {
-    margin-left: 25vw;
+    margin-left: 27vw;
   }
   .Project {
     height: 95vh;
