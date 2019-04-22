@@ -1,14 +1,24 @@
 export const getProjects = () => {
   return Promise.all([
     {
+      title: 'Kids2',
+      site: 'www.kidstoopdx.com',
+      github: 'https://github.com/team-herd',
+      date: '4/19',
+      concept: 'Calendar of local events',
+      about: 'A platform for searching and posting activities geared towards children and youth in the Portland, OR area.',
+      pic: 'http://res.cloudinary.com/tmzaragoza/image/upload/v1555955308/Screen_Shot_2019-04-22_at_10.47.15_AM.png',
+      tech: 'React, redux, Jest, SuperTest, MongoDB'
+    },
+    {
       title: 'Countries',
       site: 'https://amazing-torvalds-2f4d83.netlify.com/',
       github: 'https://github.com/tmzaragoza/react_hack',
-      date: '2/19',
+      date: '3/19',
       concept: 'Search countries and their flags',
       about: 'Search for a country\'s basic information.',
       pic: 'https://res.cloudinary.com/tmzaragoza/image/upload/v1553139617/Screen_Shot_2019-03-20_at_8.35.44_PM.png',
-      tech: 'React, redux, Jest, enzyme, SuperTest',
+      tech: 'React, redux, Jest, enzyme, SuperTest'
     },
     {
       title: 'SimAlchemy',
@@ -28,7 +38,7 @@ export const getProjects = () => {
       concept: 'Create your own jokes list',
       about: 'Create your own comedic set list by saving jokes to your set, creating your own and rating other jokes.',
       pic: 'https://res.cloudinary.com/tmzaragoza/image/upload/v1553139432/Screen_Shot_2019-03-20_at_8.32.17_PM.png',
-      tech: 'Vue, Node.js, Express, Jest, SuperTest, nodemon, bcrypt.js, jsonwebtoken, morgan, vue-star-rating.',
+      tech: 'Vue, Node.js, Express, Jest, SuperTest, nodemon, bcrypt.js, jsonwebtoken, morgan, vue-star-rating.'
     }
   ]);
 };
